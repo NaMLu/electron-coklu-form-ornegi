@@ -1,2 +1,2 @@
 # Electron JS
-Electron JS ile çoklu form kullanımı için örnek projedir.
+Electron JS ile çoklu form ve menü kullanımı için örnek projedir.
