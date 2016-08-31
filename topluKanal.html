@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+	<title>Toplu kanal ekle</title>
+	<style type="text/css">
+		body {font-family: 'Open Sans', sans-serif;font-size:14px;}
+		textarea {outline: none;float:left;font-family: 'Open Sans', sans-serif;border-radius:5px;background-color:transparent;border:1px solid #CCC;padding:5px;margin:5px 10px;}
+		input[type='submit'] {outline: none;float:left;font-family: 'Open Sans', sans-serif;padding:5px;margin:5px 10px 0 10px;border-radius:5px;background-color:#ed5153;border:0;color:#FFF;box-shadow:0 2px 0 #e14043;}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>Kanal linkleri:</td>
+			<td><textarea name="linkler" id="linkler" cols="30" rows="10"></textarea></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><input id="btn" type="submit" value="Kanalları ekle" /></td>
+		</tr>
+	</table>
+	
+	
+  <script>
+    // You can also require other files to run in this process
+    require('./renderers/topluKanalRenderer.js')
+  </script>
+</body>
+</html>
